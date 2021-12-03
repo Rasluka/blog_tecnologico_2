@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Tecnologico</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand mx-auto" href="/index.html">Blog Tecnologico</a>
+    </nav>
+
+    <div class="card text-center">
+        <div class="card-header">
+            <a href="/ensamblaje.html"  class="btn btn-primary">Ensamblar una PC</a>
+            <a href="/fallos_pc.html" class="btn btn-primary">Fallos Comunes en las PCs</a>
+        </div>
+
+    </div>
+
+    <!-- Content -->
+
+    <div class="container shadow min-vh-100 py-2">
+        <div class="container network_wrapper col-sm p-2 ">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="card-title">PC PRINCIPALES FALLAS Y AVERIAS EN LAS PCs</h5>
+                    <ul class="nav nav-tabs card-header-tabs" data-bs-tabs="tabs">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="true" data-bs-toggle="tab" href="#p1">Problema #1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="tab" href="#p2">Problema #2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="tab" href="#p3">Problema #3</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="tab" href="#p4">Problema #4</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="tab" href="#p5">Problema #5</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="tab" href="#p6">Problema #6</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="tab" href="#p7">Problema #7</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="tab" href="#p8">Problema #8</a>
+                        </li>
+
+      
+
+                    </ul>
+                </div>
+                <form class="card-body tab-content">
+                    <div class="tab-pane active" id="p1">
+                        <p class="card-text">La Computadora No Enciende</p>
+                        <img class="card-img-top" src="img/issues/1.jpg" alt="Card image cap">
+                        <ol class="reco-list">
+                            <li><p>Asegúrese de que el cable de alimentación del PC esté firmemente
+                                enchufado en un enchufe de poder o extensión de múltiples contactos
+                                (power strip) y que la extensión esté prendida.</p>
+                            </li>
+                            <li><p>Intente enchufar el PC o extensión de múltiples contactos en otro enchufe
+                                de pared.</p>
+                            </li>
+                            <li>
+                                <p>Verifique que el cable de alimentación esté firmemente conectado a la
+                                    salida de toma de corriente del PC.</p>
+                            </li>
+                            <li>
+                                <p>Verifique que el suministro de energía esté en la posición “prendido” (on).</p>
+                            </li>
+                            <li>
+                                <p>Asegúrese de que el suministro de energía esté en el voltaje apropiado para
+                                    su región (voltage appropriate to your región).</p>
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="tab-pane" id="p2">
+                        <p class=" card-text">El Equipo No Da Video</p>
+                        <img class="card-img-top" src="img/issues/2.jpg" alt="Card image cap">
+
+                        <ol>
+                            <li>Verifique el cable de alimentación de AC (Cable A) y que el monitor este
+                                encendido. Trate de ubicar un cable para monitor que usted sepa que esta
+                                bueno (Cable B). Si con el cable A el monitor no enciende y con el cable B
+                                en monitor enciende, entonces el Cable A probablemente esté abierto por
+                                dentro, en este caso asegúrese con un multímetro y reemplaza el cable.
+                                o Chequee que el cable RGB esté conectado al conector de la tarjeta de
+                                video.</li>
+
+                            <li>
+                                Algunos cables RGB cuando están dañados o unos de sus cables
+                                internos están abiertos (a excepción del negro o tierras), las imágenes se
+                                mostraran con otros colores. En este caso, se deberá reemplazar el cable
+                                RGB completo ó se deberá ubicar la parte que está dañada y repararla.
+                                Por lo general se dañan al inicio de su conector DB15, por lo que resulta
+                                más práctico cambiar el conector. Cuando el cable de tierra o negro del
+                                cable RGB está dañado, se interrumpe la trasmisión de video al monitor
+                                (CRT).
+                            </li>
+
+                            <li>
+                                Verifique la Pila del BIOS: Algunas tarjetas madre integradas o no
+                                integradas, no envían video cuando la pila del BIOS esta descargada,
+                                desinstale la pila, pruébela con un multímetro y si esta descargada,
+                                reemplácela por una nueva. OJO: Nunca intente adaptar pilas alcalinas al
+                                BIOS, porque no son a base de Litium, se explotan al cabo de cierto
+                                tiempo y sulfatan la tarjeta madre, causando daños irreversibles. 
+                            </li>
+                        </ol>
+
+                    </div>
+
+                    <div class="tab-pane" id="p3">
+                        <p class=" card-text">El Puntero Del Mouse No Se Mueve</p>
+                        <img class="card-img-top" src="img/issues/1.jpg" alt="Card image cap">
+
+                        <ol>
+                            <li>Verifique que el cable del Mouse este correctamente instalado en sus
+                                puerto. Revise los controladores del Mouse en el administrador de
+                                dispositivos.</li>
+
+                            <li>Asegúrese que el puerto COMM1 este habilitado en el BIOS del PC.
+                                Chequee que la faja de interfaz del puerto COMM1 esté conectada
+                                correctamente en la tarjeta madre y que esté funcionando.</li>
+
+                            <li>Destape el mouse y revise que los lectores ópticos este derecho y el
+                                cable no esté abierto por dentro con un multímetro.</li>
+
+                            <li>Cerciórese que el Mouse no esté utilizando los mismo recurso de otros
+                                dispositivos.</li>
+                        </ol>
+
+                    </div>
+                    
+                    <div class="tab-pane" id="p4">
+                        <p class=" card-text">Teclado No Responde</p>
+                        <img class="card-img-top" src="img/issues/4.jpg" alt="Card image cap">
+
+                        <ol>
+                            <li>Reinicie el equipo. Posiblemente Windows que colgó y el teclado no
+                                respondía.</li>
+                            <li>Presione la tecla DEL para verificar si el teclado responde en modo MSDOS. Debería entrar en la CMOS o BIOS del equipo.</li>
+                            <li>Verifique el no exista un administrador de políticas del sistema o Virus
+                                que deshabilite el teclado al cargar Windows. Muchos administradores
+                                de Sistemas deshabilitan el teclado en el archivo MS-DOS.SYS.</li>
+                            <li>Verifique el cable del teclado con un multímetro Si está abierto uno de
+                                sus cable internos, debería reemplazar el cable completo por otro de
+                                igual modelo o reparar la parte dañada pero con estética. OJO. Nunca
+                                coloque otro cable diferente porque podría quemar el teclado y su puerto
+                                en la tarjeta madre cuando lo conecte.</li>
+                            <li>
+                                Pruebe su teclado con otro equipo. Si no responde, reemplácelo por otro nuevo. 
+                            </li>
+                        </ol>
+
+                    </div>
+
+                    <div class="tab-pane" id="p5">
+                        <p class=" card-text">Poco o Nulo Espacio en Disco</p>
+                        <img class="card-img-top" src="img/issues/5.jpg" alt="Card image cap">
+
+                        <p>Esto se puede solucionar con el “Liberador de espacio en disco”, que realizara
+                            algunas acciones para tratar de liberar espacio en nuestro disco eliminando
+                            archivos que no usemos o sean inútiles. Sin embargo, la solución que suele ser
+                            más efectiva en este caso es usar “Agregar o quitar programas”, ya que podemos
+                            tener muchos programas que ocupen espacio en disco (estas aplicaciones suelen
+                            ser mucho más pesadas que las que elimina el liberador de espacio en disco) y no
+                            se usen casi nunca, o puedan ser reemplazadas por versiones mas ligeras.</p>
+
+                    </div>
+
+                    <div class="tab-pane" id="p6">
+                        <p class=" card-text">Bajo El Rendimiento de la PC</p>
+                        <img class="card-img-top" src="img/issues/6.jpg" alt="Card image cap">
+                        <p>Es la mayor queja de los usuarios. Hay muchas razones para explicarlo. La más
+                            común: falta de mantenimiento. Datos fragmentados, registro corrupto, spyware y
+                            un montón de programas corriendo innecesariamente. Con sólo fijarse lo que se
+                            tiene instalado, borrar lo innecesario y ocuparse del funcionamiento de la PC se
+                            puede ganar en velocidad y en rendimiento.</p>
+                    </div>
+
+                    <div class="tab-pane" id="p7">
+                        <p class=" card-text">Programas se Cierran, Congelan o Pantallas de Errores</p>
+                        <img class="card-img-top" src="img/issues/7.jpg" alt="Card image cap">
+                        <p>Muchos de estos problemas son causados por spyware o programas espía. Si
+                            bien alcanzaría con tener y actualizar constantemente un programa anti-spyware,
+                            las causas pueden venir por otro lado, como por ejemplo la falta de drivers
+                            correctos para el hardware instalado. También sería una buena idea aumentar la
+                            memoria virtual de la PC, para que aproveche mejor la memoria RAM instalada.</p>
+                    </div>
+
+                    <div class="tab-pane" id="p8">
+                        <p class=" card-text">La PC se reinicia Automaticamente</p>
+                        <img class="card-img-top" src="img/issues/8.jpg" alt="Card image cap">
+                        <p>El problema puede provenir de suciedad dentro del gabinete, o un ventilador
+                            obstruido. La computadora no puede refrescarse, y la única forma de hacerlo es
+                            apagándose. Si se siente demasiado calor proveniente de allí dentro, sería bueno
+                            limpiar el ventilador. Si el problema persiste, puede estar fallando la fuente de
+                            alimentación, o incluso sería bueno revisar los cables internos, para ver si están
+                            conectados correctamente. </p>
+                    </div>
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- End content -->
+
+
+    <!-- Footer -->
+    <footer class="page-footer font-small blue pt-4">
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2021 Copyright Creado por Jorge Obando.
+
+    </div>
+    <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+
+
+    <!-- End Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
